@@ -1,0 +1,60 @@
+:root {
+ 
+  --primary-color-highlight: #233D54;
+  --bs-body-bg: #fcfbf1;
+  --bs-body-font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: rgb(37,35,36);
+  overflow: hidden;
+
+}
+.hero__heading {
+  color: rgb(238, 245, 105);
+  font-family: 'Raleway', sans-serif;
+ 
+}
+.hero__content-width{
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .hero__heading {
+      font-size: 4rem;
+      letter-spacing: 4px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .hero__heading {
+      font-size: 6rem;
+    
+      
+  }
+}
+
+.bg-image__hero {
+  position: relative;
+  position: relative;
+  background-size: cover;
+  transform: rotate(-90deg);
+}
+@media screen and (min-width:768px){
+  .hero{
+    
+  background: linear-gradient(61deg, rgba(37,35,36,1) 77%, rgba(52,52,51,1) 100%);
+  }
+  .bg-image__hero {
+    width: 50vw;
+    transform: initial;
+  }
+
+}
+
+
+
+
+
+
+
